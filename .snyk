@@ -1,0 +1,11 @@
+# Snyk policy file, patches or ignores known vulns
+version: v.1.25.0
+ignore:
+  SNYK-DOTNET-NEWTONSOFTJSON-2774678:
+    - '*':
+      reason: Testing snyk file
+      expires: 2025-12-31T23:59:59Z
+patch: {}
+exclude:
+  global:
+    - src/bc-readme-gen/Program.cs
